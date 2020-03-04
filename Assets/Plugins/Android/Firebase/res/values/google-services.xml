@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id" xmlns:tools="http://schemas.android.com/tools">
+  <string name="firebase_database_url" translatable="false">https://combateam-4a8bc.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">1077556616751</string>
+  <string name="google_storage_bucket" translatable="false">combateam-4a8bc.appspot.com</string>
+  <string name="project_id" translatable="false">combateam-4a8bc</string>
+  <string name="google_api_key" translatable="false">AIzaSyA32I0d9zEqHzuAp6LSK6MKs8Xm9T3L9jg</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA32I0d9zEqHzuAp6LSK6MKs8Xm9T3L9jg</string>
+  <string name="google_app_id" translatable="false">1:1077556616751:android:1ebbe3005ca0d9c8</string>
+  <string name="default_web_client_id" translatable="false">1077556616751-kogkk8p4q3cn9uo0h0llpufr1mtdm3fg.apps.googleusercontent.com</string>
+</resources>
