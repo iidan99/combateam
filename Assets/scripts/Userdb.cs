@@ -19,12 +19,11 @@ public class Userdb : MonoBehaviour {
 
     //כמות כלפים
     public int userCards;
-    //Music on / off / Local Save 
-    public bool music;
-    //Sound Effect on / off / Local Save 
-    public bool sound;
-    //הדרכה
-    public bool tutorials;
+
+
+    //settings info save in local storage.
+    public bool[] settings = new bool[4];
+    
     //credits
     public int credits;
     //diamonds

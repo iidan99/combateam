@@ -400,6 +400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79e17773db4974b48bcfd26b839a388b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  idToken: 
 --- !u!1 &207520678
 GameObject:
   m_ObjectHideFlags: 0
@@ -1186,10 +1187,9 @@ MonoBehaviour:
   userEmail: 
   userLevel: 0
   userEXP: 0
+  maxEXP: 0
   userCards: 0
-  music: 0
-  sound: 0
-  tutorials: 0
+  settings: 00010001
   credits: 0
   dimonds: 0
 --- !u!4 &1659105474
