@@ -27,11 +27,13 @@ public class Userdb : MonoBehaviour {
     //credits
     public int credits;
     //diamonds
-    public int dimonds;
+    public int diamonds;
 
 
     // Use this for initialization
     void Start () {
+        credits = 1000;
+        diamonds = 1000;
         atuh = GameObject.FindGameObjectWithTag("FireBase").GetComponent<LoginHandler>();
 
         Application.DontDestroyOnLoad(this);

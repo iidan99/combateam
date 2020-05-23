@@ -17,25 +17,24 @@ public class settings_buttons : MonoBehaviour {
 
         if (me == false)
         {
-            pos.anchoredPosition = new Vector2(19 , pos.anchoredPosition.y);
+            pos.anchoredPosition = new Vector2(50 , pos.anchoredPosition.y);
         }
         else
         {
-            pos.anchoredPosition = new Vector2(84, pos.anchoredPosition.y);
+            pos.anchoredPosition = new Vector2(123.6f, pos.anchoredPosition.y);
         }
         
 	}
 
     void Update()
     {
-        if (pos.anchoredPosition.x >= 19 && !me)
+        if (pos.anchoredPosition.x >= 50 && !me)
         {
-            pos.anchoredPosition = new Vector2(pos.anchoredPosition.x - (Time.deltaTime * 80) , pos.anchoredPosition.y);
+            pos.anchoredPosition = new Vector2(pos.anchoredPosition.x - (5) , pos.anchoredPosition.y);
         }
-        else if (pos.anchoredPosition.x <= 84 && me)
+        else if (pos.anchoredPosition.x <= 123.6f && me)
         {
-            print(pos.anchoredPosition.x);
-            pos.anchoredPosition = new Vector2(pos.anchoredPosition.x + (Time.deltaTime * 80), pos.anchoredPosition.y);
+            pos.anchoredPosition = new Vector2(pos.anchoredPosition.x + (5), pos.anchoredPosition.y);
         }
     }
 

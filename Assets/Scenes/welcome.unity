@@ -1189,7 +1189,7 @@ MonoBehaviour:
   userEXP: 0
   maxEXP: 0
   userCards: 0
-  settings: 00010001
+  settings: 01010101
   credits: 0
   dimonds: 0
 --- !u!4 &1659105474
